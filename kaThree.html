@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+	    <meta name="HandheldFriendly" content="True">
+	    <meta name="MobileOptimized" content="320">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	    <meta http-equiv="cleartype" content="on">
+	    <meta name="apple-mobile-web-app-capable" content="yes"/>
+	    <meta content="telephone=no" name="format-detection" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>慧车宝</title>
+		<link rel="stylesheet" type="text/css" href="css/choose.css"/>
+	</head>
+	<body style="background: url(images/heka3_04.jpg) repeat-y;">
+		<div class="top">
+			<img src="images/heka3_01.jpg"/>
+			<img src="images/heka3_02.jpg"/>
+			<img src="images/heka3_03.jpg"/>
+		</div>
+		<div class="wenZi">
+			<img src="images/heka3_04.jpg"/>
+			<img src="images/heka3_05.jpg"/>
+			<textarea name="kt3" rows="3" maxlength="44" class="kt3 songti" autofocus="ture">你之所以这么屌，不是因为你有多好，而是因为你有我这个好朋友。好基友揍是一辈子！新年快乐！</textarea>
+		</div>
+		<div class="photoP">
+			<img src="images/heka3_06.jpg"/>
+			<img src="images/heka3_07.jpg"/>
+			<img src="images/heka3_08.jpg"/>
+			<img src="images/heka3_09.jpg"/>
+			<div class="ab board3 zhaoPian"><img src="images/board3.png" alt="" /></div>
+			<div class="tiao3 ab"></div>
+		</div>
+		<div class="bottom">
+			<img src="images/heka3_10.jpg"/>
+			<img src="images/heka3_11.jpg"/>
+			<img src="images/heka3_12.jpg"/>
+
+		</div>
+		<div class="music animated infinite roate" onClick="music()"></div>
+		<audio preload id="music" autoplay="autoplay">
+		    <source src="media/gongXi.mp3" type="audio/mpeg">
+			<!-- Your browser does not support the audio tag. -->
+		</audio>
+		<div class="ok"></div>
+		<div class="mini_bd"></div>
+		<div class="board"></div>
+		<div class="tipFirst" style="position: absolute;top: 6%;left: 24%;color: #fff;z-index: 55;">点击此处发送贺卡</div>
+		<div class="tipFirst" style="position: absolute;top: 47%;left: 50%;color: #fff;z-index: 55;">点击此处编辑文字</div>
+		<div class="tipFirst" style="position: absolute;top: 73%;left: 20%;color: #fff;z-index: 55;">点击此处上传图片</div>
+		<img src="images/a51.png" alt="" class="tipFirst" style="position: absolute;top: 5%;left: 63%;color: #fff;z-index: 55;" />
+		<img src="images/a52.png" alt="" class="tipFirst" style="position: absolute;top: 37%;left: 63%;color: #fff;z-index: 55;" />
+		<img src="images/a53.png" alt="" class="tipFirst" style="position: absolute;top: 65%;left: 25%;color: #fff;z-index: 55;" />
+		<div class="tan">
+			<img src="images/tan.png" alt="" />
+			<input type="button" value="立刻送出祝福" class="send" />
+			<input type="button" value="我再想想。。。" class="esc" />
+		</div>
+		<!--红包-->
+		<div class="hongBao"><img src="images/hongBao.png" /></div>
+		<div class="yeFa"><img src="images/yeFa.png" /></div>
+		<div class="gang">
+			<img src="images/daJiangBg.png" class="gangBg" />
+			<div class="neiRong">
+				<p class="wen1">恭喜您</p>
+				<p class="wen2">获得价值<span>2888</span>元的神秘大奖</p>
+				<div class="fu"><img src="images/fu.png" alt="" /></div>
+				<div class="tel"><input type="tel" name="mobileAccount" id="mobileAccount" placeholder="您尊贵的手机号" maxlength="11" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" autocomplete="off" value="" /></div>
+				<div class="reg"><a href="javascript:void(0)">点击领取</a></div>
+				<div class="share"><a href="javascript:void(0)" class="fenX">分享</a><a href="#" class="downA">下载APP</a></div>
+			</div>
+		</div>
+		<div class="arrow"></div>
+		<!--红包结束-->
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/music.js"></script>
+		<script type="text/javascript" src="js/currency.js"></script>
+	</body>
+</html>
